@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+div.all{
+    width: 598px;  
+    margin:0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+/*************************************************************************
+* TOPO                                                                   *
+*************************************************************************/
+header.topo{
+    background-color:#0a3282;
+    text-align: center;
+    padding-top: 20px;  
+    height: 970px;   
+}
+/*Logo CATTAN*/
+header.topo h1{
+    height: 50px;
+    padding: 10px;
+    color:#fff;
+    border-bottom:1px solid #022468;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Logo CATTAN e Menu em caixa alta*/
+h1, nav ul li{
+    text-transform: uppercase;    
+}
+/*borda no ultimo item do menu 'casa' retirar a bordar-right branca*/
+nav ul li.mncasa{border-right: none;}
+
+header nav ul li{
+    font-size: 11px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;           
+    margin:0 auto;
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;        
+    padding: 5px;  
+    border-right: 1px solid #fff;
+    cursor: pointer;     
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:#fff
+}
+/*************************************************************************
+* BANNER FLUTUANTE                                                       *
+*************************************************************************/
+section#banner-flutuante{
+    font-size: 12px;
+    color: #0a3282;
+    position:relative;
+    top: -110px;
+    left: 30px;
+    width: 220px;    
+    padding: 10px;
+    background-color: #fff;
+    opacity: 90%;
+    text-align: left;
+    line-height: 20px;
+}
+
+section#banner-flutuante > h3{
+    font-weight: bold;
+    font-size: 24px;    
+    text-transform: uppercase;
+    
+}
+/*************************************************************************
+* BANNER BODY                                                            *
+*************************************************************************/
+p.banner-body-texto{
+    color: #fff;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 10px;
+    position:relative;
+    top: -90px;
+    left: 30px;
+    width: 250px;
+    text-align: left;
+}
+.imagem-body{
+    position:relative;
+    top: -530px;
+    left: 300px;
+    width: 250px;
+    text-align: left;
+}
+
+div.btnBannerBody{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f49e00;
+    text-align: center;
+    text-transform: uppercase;     
+    width: 286px;
+    padding: 15px;    
+    margin:0 auto;
+    cursor: pointer;
+    position:relative;
+    top: -60px;
+    left: 35px;       
+}
+/*************************************************************************
+* BANNER BODY 2                                                          *
+*************************************************************************/
+section#banner-body-2{
+    height: 351px;
+    margin: 10px;
+    padding: 20px;    
+}
+div.btnCallToActioBanner-2{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #fff;
+    width: 200px;
+    padding: 15px;     
+    background-color: #f49e00;
+    margin:0 auto;
+    cursor: pointer;    
+}
+div.banner-texto-body-2{
+    line-height: 2;
+    position:relative;
+    top: -330px;
+    left:310px; 
+    width:250px;  
+    margin-bottom: 10px;  
+}
+div.banner-texto-body-2 > h3{
+    text-transform: uppercase;
+}
+div.banner-texto-body p{
+    font-size: 12px;
+}
+
+/*************************************************************************
+* CUPOM                                                                  *
+*************************************************************************/
+section#cupom{    
+    background-color: #0a3282;
+    width: 598px;    
+    color: #fff;   
+    line-height: 50px;        
+    margin:0 auto;
+    height: 250px;
+}
+section#cupom > h1{
+    border: 1px dashed #fff;
+    text-align: center;
+    margin-top: 10px 0px;
+    color: #f49e00;
+    text-transform: uppercase;
+    width: 493px;
+    margin:0 auto;
+}
+
+section#cupom > h4{
+    font-size: 24px; 
+    text-align: center;  
+    font-weight: 400; 
+}
+
+/*************************************************************************
+* Footer                                                                  *
+*************************************************************************/
+footer {
+   height: 150px;         
+   padding:10px; 
+   margin: 0 auto;   
+   margin-top: 20px;
+}
+footer > h3{
+    font-size:12px;
+    text-transform: uppercase;  
+    margin-bottom: 15px; 
+    text-align: left;     
+}
+div.departamento{    
+    width: 76px;
+    text-align: center;
+    float: left;
+    margin-right: 5px;    
+}
+div.departamento > h5{
+    font-weight: bold;
+}
